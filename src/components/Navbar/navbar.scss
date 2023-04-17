@@ -1,0 +1,92 @@
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 80px;
+   @media (max-width: 1050px) {
+      padding: 15px 50px;
+   }
+   @media (max-width: 840px) {
+      padding: 15px 30px;
+   }
+   @media (max-width: 580px) {
+      padding: 15px 10px;
+   }
+   .nav_logo_links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+   }
+   .nav_logo {
+      a {
+         color: black;
+         span {
+            display: block;
+            margin-top: -10px;
+            font-size: 1rem;
+         }
+      }
+   }
+   .nav_links {
+      ul {
+         display: flex;
+         gap: 15px;
+         // @media (max-width: 590px) {
+            // flex-direction: column;
+            // gap: 0;
+         // }
+         li {
+            a {
+               color: rgb(88, 88, 88);
+               font-size: 0.9rem;
+            }
+            .active {
+               font-weight: 500;
+               color: black;
+            }
+         }
+      }
+   }
+   .auth_btns {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      .auth_name {
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         h4 {
+            font-weight: 500;
+            font-size: 0.9rem;
+            @media (max-width: 590px) {
+               display: none;
+            }
+         }
+      }
+      .signout_btn {
+         background-color: black;
+         color: white;
+         font-weight: 600;
+         font-size: 0.7rem;
+         cursor: pointer;
+      }
+      .auth_btn,.signout_btn {
+         padding: 10px 20px;
+         a {
+            color: white;
+            font-weight: 600;
+            font-size: 0.8rem;
+         }
+      }
+      .signup_btn {
+         background-color: black;
+      }
+      .signin_btn {
+         background-color: rgb(192, 192, 192);
+         a {
+            color: rgb(46, 46, 46);
+         }
+      }
+   }
+}
