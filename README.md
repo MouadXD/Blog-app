@@ -2,7 +2,7 @@
 
 Simple Blog using Reactjs app
 
-<a a="https://blog-project-f2620.web.app/" target="_blank">Live Demo</a>
+<h4><a href="https://blog-project-f2620.web.app/" target="_blank">Live Demo</h4>
 
 
 ![image](https://user-images.githubusercontent.com/98649110/232525029-c4577837-614a-4ad8-9457-6d7c89712c61.png)
@@ -15,11 +15,9 @@ Simple Blog using Reactjs app
 
 <h2>Run Locally</h2>
 <h3>1. Install Dependencies</h3>
-  npm install
-
-  npm install react-router-dom@6
-
-  npm install firebase
+    npm install
+    npm install react-router-dom@6
+    npm install firebase
   
 <h3>2. Run development server</h1>
-  npm run dev
+    npm run dev
